@@ -1,0 +1,9 @@
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/lib/libraylib.a
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/include/raylib.h
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/include/rlgl.h
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/include/physac.h
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/include/raymath.h
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/include/raudio.h
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/lib/pkgconfig/raylib.pc
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/lib/cmake/raylib/raylib-config-version.cmake
+/Users/ralphgreer-walker/Code/voronoi/voronoi/target/release/build/raylib-sys-65dee8df0bf17017/out/lib/cmake/raylib/raylib-config.cmake

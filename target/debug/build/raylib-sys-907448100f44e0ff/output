@@ -1,0 +1,135 @@
+CMAKE_TOOLCHAIN_FILE_aarch64-apple-darwin = None
+CMAKE_TOOLCHAIN_FILE_aarch64_apple_darwin = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_aarch64-apple-darwin = None
+CMAKE_GENERATOR_aarch64_apple_darwin = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_aarch64-apple-darwin = None
+CMAKE_PREFIX_PATH_aarch64_apple_darwin = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_aarch64-apple-darwin = None
+CMAKE_aarch64_apple_darwin = None
+HOST_CMAKE = None
+CMAKE = None
+running: "cmake" "/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/raylib" "-DCMAKE_OSX_ARCHITECTURES=arm64" "-DBUILD_EXAMPLES=OFF" "-DCMAKE_BUILD_TYPE=Release" "-DSUPPORT_BUSY_WAIT_LOOP=OFF" "-DPLATFORM=Desktop" "-DCMAKE_INSTALL_PREFIX=/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -arch arm64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -arch arm64" "-DCMAKE_CXX_COMPILER=/usr/bin/c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -arch arm64" "-DCMAKE_ASM_COMPILER=/usr/bin/cc"
+-- The C compiler identification is AppleClang 14.0.0.14000029
+-- The CXX compiler identification is AppleClang 14.0.0.14000029
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES
+-- Performing Test COMPILER_HAS_THOSE_TOGGLES - Success
+-- Testing if -Werror=pointer-arith can be used -- compiles
+-- Testing if -Werror=implicit-function-declaration can be used -- compiles
+-- Testing if -fno-strict-aliasing can be used -- compiles
+-- Using raylib's GLFW
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Using Cocoa for window creation
+-- Audio Backend: miniaudio
+-- Building raylib static library
+-- Generated build type: Release
+-- Compiling with the flags:
+--   PLATFORM=PLATFORM_DESKTOP
+--   GRAPHICS=GRAPHICS_API_OPENGL_33
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/build
+running: "cmake" "--build" "." "--target" "install" "--config" "Debug"
+[  4%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/context.c.o
+[  8%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/input.c.o
+[ 12%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/monitor.c.o
+[ 16%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/init.c.o
+[ 20%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/window.c.o
+[ 25%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/vulkan.c.o
+[ 29%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_init.m.o
+[ 33%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_joystick.m.o
+[ 37%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_monitor.m.o
+[ 41%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_window.m.o
+[ 45%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/cocoa_time.c.o
+[ 50%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/posix_thread.c.o
+[ 54%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/nsgl_context.m.o
+[ 58%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/egl_context.c.o
+[ 62%] Building C object raylib/external/glfw/src/CMakeFiles/glfw_objlib.dir/osmesa_context.c.o
+[ 62%] Built target glfw_objlib
+[ 66%] Linking C static library libglfw3.a
+[ 66%] Built target glfw
+[ 75%] Building C object raylib/CMakeFiles/raylib.dir/models.c.o
+[ 75%] Building C object raylib/CMakeFiles/raylib.dir/text.c.o
+[ 79%] Building C object raylib/CMakeFiles/raylib.dir/shapes.c.o
+[ 87%] Building C object raylib/CMakeFiles/raylib.dir/utils.c.o
+[ 87%] Building C object raylib/CMakeFiles/raylib.dir/textures.c.o
+[ 95%] Building C object raylib/CMakeFiles/raylib.dir/raudio.c.o
+[ 95%] Building C object raylib/CMakeFiles/raylib.dir/core.c.o
+[100%] Linking C static library libraylib.a
+[100%] Built target raylib
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/lib/libraylib.a
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/include/raylib.h
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/include/rlgl.h
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/include/physac.h
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/include/raymath.h
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/include/raudio.h
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/lib/pkgconfig/raylib.pc
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/lib/cmake/raylib/raylib-config-version.cmake
+-- Installing: /Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/lib/cmake/raylib/raylib-config.cmake
+cargo:root=/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out
+cargo:rustc-link-search=native=/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/lib
+cargo:rustc-link-search=native=/usr/local/lib
+cargo:rustc-link-lib=framework=OpenGL
+cargo:rustc-link-lib=framework=Cocoa
+cargo:rustc-link-lib=framework=IOKit
+cargo:rustc-link-lib=framework=CoreFoundation
+cargo:rustc-link-lib=framework=CoreVideo
+cargo:rustc-link-lib=static=raylib
+TARGET = Some("aarch64-apple-darwin")
+OPT_LEVEL = Some("0")
+HOST = Some("aarch64-apple-darwin")
+cargo:rerun-if-env-changed=CC_aarch64-apple-darwin
+CC_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CC_aarch64_apple_darwin
+CC_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64-apple-darwin
+CFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CFLAGS_aarch64_apple_darwin
+CFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("aes,crc,dit,dotprod,dpb,dpb2,fcma,fhm,flagm,fp16,frintts,jsconv,llvm14-builtins-abi,lor,lse,neon,paca,pacg,pan,pmuv3,ras,rcpc,rcpc2,rdm,sb,sha2,sha3,ssbs,v8.1a,v8.2a,v8.3a,v8.4a,vh")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-I" "." "-o" "/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/rgui_wrapper.o" "-c" "rgui_wrapper.c"
+exit status: 0
+cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+AR_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+AR_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+running: "ar" "cq" "/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/librgui.a" "/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/rgui_wrapper.o"
+exit status: 0
+running: "ar" "s" "/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out/librgui.a"
+exit status: 0
+cargo:rustc-link-lib=static=rgui
+cargo:rustc-link-search=native=/Users/ralphgreer-walker/Code/voronoi/voronoi/target/debug/build/raylib-sys-907448100f44e0ff/out
