@@ -12,6 +12,11 @@ To Do:
 
 - [ ] Sort out colours using [Four colour theorem](https://en.wikipedia.org/wiki/Four_color_theorem)
 - [ ] Make points prettier using complimentary colours
-- [ ] Drag around points
-- [ ] Fully configurable
+- [x] Drag around points
+- [x] Delete points
+- [x] Fully configurable
+- [x] Optimise by using fewer iterations over points
+- [x] Add noise to colours
+- [ ] Move points around a bit 
 - [ ] Edge mode
+- [ ] Add pictures to README.md

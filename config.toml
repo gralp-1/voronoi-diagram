@@ -1,0 +1,6 @@
+width =        600
+height =       480
+points =       10
+title =        "Voronoi Diagram"
+show_fps =     true
+noise_amount = 30.0

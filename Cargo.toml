@@ -9,3 +9,6 @@ opt-level = 3
 [dependencies]
 rand = "0.8.4"
 raylib = "*"
+config = { version = "0.13.3", features = ["toml"] }
+serde = "1.0.130"
+serde_derive = "1.0.152"
