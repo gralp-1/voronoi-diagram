@@ -19,4 +19,6 @@ To Do:
 - [x] Add noise to colours
 - [ ] Move points around a bit 
 - [ ] Edge mode
-- [ ] Add pictures to README.md
+
+
+https://user-images.githubusercontent.com/62028969/216814050-2e24173d-8611-4f02-aa27-55fe3ba84fd9.mp4
